@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from io import BytesIO
 
-st.set_page_config(page_title="My App", theme="dark")
+
 # Mortgage calculation function
 def calculate_mortgage_payment(principal, annual_rate, years, payments_per_year):
     r = annual_rate / payments_per_year
